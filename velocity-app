@@ -7,7 +7,7 @@ pipeline {
 	     stage ("stages-1") {
 	
 			steps {
-					sh "yum install tree -y"
+					echo "this is q1"
 			}
 	      }
          }
